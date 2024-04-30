@@ -22,7 +22,8 @@
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: center;        
+        justify-content: center;
     }
 }
 
@@ -98,5 +99,25 @@ input{
         text-align: center;
         font-size: 5vw;
         font-weight: bolder;
+    }
+}
+
+.phone{
+    display: none;
+    border: 2vw;
+    margin: 2vw;
+    color: white;
+    text-align: center;
+    font-size: 4vw;
+}
+@media (max-width: 480px){
+    .phone{
+        display: inline;
+        border: 2vw;
+        margin: 2vw;
+        color: white;
+        text-align: center;
+        font-size: 10vw;
+        
     }
 }
