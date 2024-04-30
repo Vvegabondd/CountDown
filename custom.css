@@ -8,7 +8,7 @@
 .main{
     width: 100%;
     height: 100vh;
-    background: url('../hrglass-transformed.jpeg');
+    background: url('hrglass-transformed.jpeg');
     background-size: contain;
     background-position: center;
 }
