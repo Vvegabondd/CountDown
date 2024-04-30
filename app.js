@@ -1,5 +1,5 @@
-//const endDate = "28 April 2034 11:30 PM";
-const endDate = "12 July 2024 00:00 AM";
+const endDate = "28 April 2034 11:30 PM";
+//const endDate = "12 July 2024 00:00 AM";
 document.getElementById("end").innerHTML = endDate;
 
 const inputs = document.querySelectorAll("input");
@@ -14,4 +14,4 @@ function clock(){
     inputs[2].value = Math.floor(diff/60)%60;
     inputs[3].value = Math.floor(diff)%60;
 }
-setInterval(() => {clock();}, 1000);
+setInterval(() => {clock()}, 1000);

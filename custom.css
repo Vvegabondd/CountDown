@@ -56,3 +56,11 @@ input{
     font-size: 2vw;
     font-weight: bolder;
 }
+
+.mail{
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
