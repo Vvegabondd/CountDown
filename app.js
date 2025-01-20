@@ -1,4 +1,6 @@
-const endDate = "28 April 2034 11:30 PM";
+const endDate = "30 May 2025 10:00 PM";
+
+// const endDate = "28 April 2034 11:30 PM";
 //const endDate = "12 July 2024 00:00 AM";
 document.getElementById("end").innerHTML = endDate;
 
