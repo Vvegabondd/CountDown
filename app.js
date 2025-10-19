@@ -1,4 +1,4 @@
-const endDate = "31 May 2025 02:00 PM";
+const endDate = "21 August 2026 00:00 AM";
 
 // const endDate = "28 April 2034 11:30 PM";
 //const endDate = "12 July 2024 00:00 AM";
@@ -17,3 +17,4 @@ function clock(){
     inputs[3].value = Math.floor(diff)%60;
 }
 setInterval(() => {clock()}, 1000);
+
